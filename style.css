@@ -123,7 +123,7 @@ section {
     margin-left: 30px;
 }
 
-footer,
+
 nav {
     display: flex;
     flex-direction: row;
@@ -207,6 +207,19 @@ line-height: 73px;
 color: #BEBEBE;
 }
 
+.logo-st2 {
+    /* S.T */
+
+
+
+font-family: 'Domine';
+font-style: normal;
+font-weight: 200;
+font-size: 32px;
+line-height: 36.5px;
+display: ;
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -280,4 +293,58 @@ label {
     width: 30%;
     display: flex;
     color: black;
+     background-color: #BEBEBE;
+    /* color: rgb(0, 0, 0); */
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  background: #BEBEBE;
+border-radius: 1000px;
+  border: 1px solid #ccc;
+}
+
+.mentions-legales h1 {
+    color: #2C2C2C;
+    margin-bottom: 15px;
+}
+
+.mentions-legales p {
+    color: #2C2C2C;
+    font-size: 20px;
+}
+
+.mentions-legales h2 {
+    
+    color: #2C2C2C;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mentions-legales a {
+    color: #000000;
+}
+
+.mentions-legales {
+    background-color: #BEBEBE;
+}
+.mentions-legales-logo{
+    display: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+.mentions-legales-logo p {
+    color: #BEBEBE;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
