@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php" class="logo-st">S.T</a>
+            <div>
+                <a href="#a-propos">À propos</a>
+                <a href="#a-propos">Compétence</a>
+                <a href="#portfolio">Projet</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="accueil-introduction">
+            <div>
+                <h1>Talakli<br>Sinan</h1>
+                <h2>Dévloppeur web et web mobile</h2>
+                <a href="https://www.linkedin.com/in/sinan-talakli-b78816393">
+                    <img src="image/logo-in" alt="Logo Linkedin">
+                </a>
+                <a href="https://github.com/SinanTLK">
+                    <img src="image/logo-github" alt="Logo Github">
+                </a>
+                <a href="mailto:sinantalakli@gmail.com?subject=Objet&body=Message">
+                    <img src="image/logo-mail" alt="Logo Mail">
+                </a>
+            </div>
+        </section>
+        
+        <section id="a-propos"  class="a-propos">
+            <h2 class="tout">À PROPOS DE MOI</h2>
+            <br><img src="image/fleche" alt="fleche">
+            <div class="carre-contenu">
+                <p>
+                Je m’appelle Sinan TALAKLI et je suis développeur web en formation.
+                 J’aime créer des interfaces modernes, propres et fonctionnelles. 
+                Curieux et déterminé, j’apprends vite et
+                 je construits des projets qui me permettent de progresser chaque jour.
+                 Mon but est de devenir un développeur full stack.
+                </p>
+                
+                <h3>MES COMPÉTENCES</h3>
+   <div class="page-wrapper">
+  <div class="scroll-wrapper">
+    <div class="scroll-track">
+      <div class="item item-1"></div>
+      <div class="item item-2"></div>
+      <div class="item item-3"></div>
+      <div class="item item-4"></div>
+      <div class="item item-5"></div>
+      <div class="item item-6"></div>
+      <div class="item item-7"></div>
+      <div class="item item-8"></div>
+
+      <!-- duplication pour l’infini -->
+      <div class="item item-1"></div>
+      <div class="item item-2"></div>
+      <div class="item item-3"></div>
+      <div class="item item-4"></div>
+      <div class="item item-5"></div>
+      <div class="item item-6"></div>
+      <div class="item item-7"></div>
+      <div class="item item-8"></div>
+    </div>
+  </div>
+</div>
+<img src="image/fleche" alt="fleche">
+<br><img src="image/fleche" alt="fleche">
+ </section>
+        
+ <section class="portfolio">
+            <h2 id="portfolio"class="port">PROJET</h2>
+            <!-- <h2 class="port">PORTFOLIO</h2> -->
+            <h3>MES PROJETS</h3>
+            <div class="carousel">
+            <a href=>
+                <img src="image/projet1" alt="projet1">
+                <p>Projet HTML CSS</p>
+            </a>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="contact">
+            <h2 class="tout">CONTACT</h2>
+             <br><img src="image/fleche" alt="fleche">
+      <form action="process.php" method="post">
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+    <br>
+    <input class="envoyer" type="submit" value="Envoyer">
+</form>
+<img src="image/fleche" alt="fleche">
+<br><img src="image/fleche" alt="fleche">
+        </section>
+
+
+    </main>
+    <footer>
+        <a href="index.php" class="logo-st">S.T</a>
+        <div>
+            <a href="https://www.linkedin.com/in/sinan-talakli-b78816393" class="lien-logo">
+                <img src="image/logo-in" alt="Logo Linkedin">
+            </a>
+            <a href="https://github.com/SinanTLK" class="lien-logo">
+                <img src="image/logo-github" alt="Logo Github">
+            </a>
+            <a href="mailto:sinantalakli@gmail.com?subject=Objet&body=Message" class="lien-logo">
+                <img src="image/logo-mail" alt="Logo Mail">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 1em;
+    background-color: #2C2C2C;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 5.5em;
+    color: #D9D9D9;
+    font-family: "Libre Baskerville", serif;
+}
+
+.accueil-introduction h2{
+    
+    font-size: 2.5em;
+    color: #D9D9D9;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    display: table;
+    width: 100%;
+    text-align: center; /* Centre horizontalement */
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle; /* Centre verticalement */
+}
+
+   
+.tout {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    border: 5px solid black;     
+    padding: 10px 20px;
+    display: inline-block; 
+}
+
+.portfolio h3 {
+    color: #D9D9D9;
+}
+
+.portfolio p {
+    color: #BEBEBE;
+    font-family: "Libre Baskerville", serif;
+     font-weight: bold;
+     margin-top: 10px;
+     font-size: 20px;
+
+}
+h3 {
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+p {
+    font-size: 2.1em;
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-color: #D9D9D9;
+    padding: 20px 50px;
+    position: sticky; top: 0;
+}
+
+footer{
+    background-color: #2C2C2C;
+    padding: 20px 50px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.lien-logo {
+    margin-left: 30px;
+}
+
+.lien-logo:hover {
+    opacity: 0.5;
+}
+
+.carre-contenu {
+    border-right: 5px solid #2C2C2C;
+    border-bottom: 5px solid #2C2C2C;
+    padding: 50px;
+}
+.carre-contenu {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+section {
+    padding: 80px;
+}
+.a-propos {
+    background-color:#D9D9D9;
+}
+
+
+.lien a {
+    margin-left: 30px;
+}
+
+footer,
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
+.accueil-introduction {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    margin:auto;
+}
+
+/* Page centrée */
+.page-wrapper {
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+}
+
+/* Fenêtre de scroll */
+.scroll-wrapper {
+  width: 420px;           
+  height: 120px;
+  overflow: hidden;
+}
+
+/* Bande défilante */
+.scroll-track {
+  display: flex;
+  align-items: center;   /* logos centrés verticalement */
+  gap: 24px;
+  width: max-content;
+  animation: scroll 18s linear infinite;
+}
+
+/* Logos */
+.item {
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+/* Animation */
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+Images
+.item-1 { background-image: url("image/logo-c.png"); }
+.item-2 { background-image: url("image/logo-css.svg"); }
+.item-3 { background-image: url("image/logo-figma.png"); }
+.item-4 { background-image: url("image/logo-git.svg"); }
+.item-5 { background-image: url("image/logo-mysql.svg"); }
+.item-6 { background-image: url("image/logo-github.png"); }
+.item-7 { background-image: url("image/logo-html.svg"); }
+.item-8 { background-image: url("image/logo-linux.png"); }
+
+
+.logo-st {
+    /* S.T */
+
+
+
+font-family: 'Domine';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 73px;
+
+color: #BEBEBE;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.banniere {
+    position: relative;
+    height: 150px;
+    background-image: url('image/bmw.jpg');
+    background-size: cover;
+    background-position: center 17%;
+}
+
+.port {
+    margin: 10px 0 0 0;    
+    text-align: center;
+    border: 5px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    color:black;
+   
+}
+
+.carousel {
+    width: 100%;
+    overflow-x: auto;
+    margin: 3em auto;
+    gap: 1em;
+}
+
+.contact {
+    background-color: #D9D9D9;
+}
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+  background: #BEBEBE;
+border-radius: 1000px;
+  border: 1px solid #ccc;
+    
+
+
+}
+
+input[type="submit"] {
+    background-color: #BEBEBE;
+    /* color: rgb(0, 0, 0); */
+    border: none;
+    cursor: pointer;
+    font-family: "Libre Baskerville", serif;
+}
+
+label {
+      font-family: "Libre Baskerville", serif;
+     font-weight: bold;
+      display: flex;
+      color: black;
+}
+
+.envoyer {
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    color: black;
+}
